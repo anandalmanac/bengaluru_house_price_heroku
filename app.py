@@ -40,7 +40,7 @@ def home():
     bhk=request.form['bhk']
     bath=request.form['bath']
     a=predict_price(location,sqft,bath,bhk)
-    round(a,2)
+    a=round(a,2)
     
     return render_template('after.html',data=a)
 
