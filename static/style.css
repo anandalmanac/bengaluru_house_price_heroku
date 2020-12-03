@@ -1,0 +1,66 @@
+
+
+
+    
+body{
+  background-image: url(house.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  text-shadow: black 2px 2px 5px;
+  
+} 
+    
+    
+    
+
+
+.title{
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 4px 10px black;
+    font-size: 20px;
+    color: rgba(255, 254, 254, 0.596);
+    padding-top: 2cm;
+    rotate: 180deg;
+    
+    
+    
+    
+}
+input{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 8px;
+    
+    
+    
+    height: 25px;
+    
+    
+}
+
+    
+
+  select {
+    
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+   
+  }
+  input:hover{
+    background-color: rgba(243, 193, 56, 0.342);/*block turns white on mouse pointer*/
+    background-blend-mode: soft-light;
+    color:white;
+    transition-delay: 10ms;
+  
+  }
+  input[type=submit]{
+      width:100px;
+      height: 40px;
+
+  }
